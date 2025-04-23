@@ -62,7 +62,9 @@ public class Mail {
 			read = true;
 		}
 	}
-	public String print() {
+	
+	@Override
+	public String toString() {
 		return subject + " from " + senderAddress + " on " + datetime + ": " + message + ".";
 		
 	}
