@@ -1,5 +1,5 @@
 package a2;
 
-public class Email {
+public class Email extends Message {
 
 }
