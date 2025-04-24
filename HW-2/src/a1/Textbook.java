@@ -1,10 +1,20 @@
 package a1;
 
 public class Textbook extends Book {
-	String subject;
+	private String subject;
 	
+	public String getSubject() {
+		return subject;
+	}
+
+	public void setSubject(String subject) {
+		this.subject = subject;
+	}
+
+
+
 	@Override
 	public String getInfo() {
-		return title + ", published in " + year + ", by " + author + " Subject: " + subject;
+		return super.getInfo() + " Subject: " + subject; //+ String.format(" Subject: %s", subject);
 	}
 }
