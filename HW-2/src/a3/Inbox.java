@@ -12,7 +12,7 @@ public class Inbox {
 	public void setEmails(ArrayList<Mail> emails) {
 		this.emails = emails;
 	}
-	private void store(Mail mail) {
+	public void store(Mail mail) {
 		emails.add(mail);
 	}
 	public void print() {
@@ -25,7 +25,7 @@ public class Inbox {
 		if(index >= 0 && index < emails.size()) {
 			Mail mail = emails.get(index);
 			mail.markAsRead();
-			System.out.println( mail.print());
+			System.out.println( mail);
 		}
 	}
 	
