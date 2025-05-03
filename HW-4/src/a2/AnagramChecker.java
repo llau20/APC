@@ -137,7 +137,7 @@ public class AnagramChecker {
 		System.out.println("Enter the second string: ");
 		String word2 = scanner.nextLine();
 		
-		// TODO: Process the strings here (ignore spaces, case)
+		// TODO: Process the strings here (ignore spaces, case)   ?? verstehe nicht was man hier machen soll
 		
 		System.out.println("Are they anagrams? " + isAnagram(word1, word2));		
 		
