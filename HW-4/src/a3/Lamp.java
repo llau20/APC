@@ -2,8 +2,8 @@ package a3;
 
 public class Lamp implements Switchable, Dimmable {
 
-	boolean on;
-	int brightness;
+	private boolean on;
+	private int brightness;
 	
 	@Override
 	public void setBrightness(int level) {
