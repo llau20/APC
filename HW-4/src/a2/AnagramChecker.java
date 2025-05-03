@@ -130,7 +130,7 @@ public class AnagramChecker {
 		// TODO Auto-generated method stub
 		Scanner scanner = new Scanner(System.in);
 		
-		//Get tho strings from the user
+		//Get two strings from the user
 		System.out.println("Enter the first string: ");
 		String word1 = scanner.nextLine();
 		
