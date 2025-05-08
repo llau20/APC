@@ -14,6 +14,8 @@ public class LibrarySystem {
 		u1.getName();
 		
 		l1.work();
-		u2.work();
+		
+		// the method work is undefined for the type user:
+		//u2.work();
 	}
 }
