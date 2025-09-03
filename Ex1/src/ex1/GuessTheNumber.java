@@ -18,8 +18,6 @@ public class GuessTheNumber {
 		// Give hints: "Too high", "Too low"
 		// Print win/ lose message
 		
-		System.out.println(numberToGuess);
-		
 		for(int i=0; i<attempts; i++) {
 			System.out.println("Guess the number! " + (attempts-i) + " attempts left: ");
 			
@@ -39,7 +37,7 @@ public class GuessTheNumber {
 				}
 			}
 			if(i == attempts-1) {
-				System.out.println("No attempts left, game over!");
+				System.out.println("No attempts left, game over! The number was " + numberToGuess);
 				break;
 			}
 		}	
